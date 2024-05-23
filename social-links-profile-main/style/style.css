@@ -1,0 +1,84 @@
+body {
+  font-family: "poppins";
+  background-color: rgb(16, 16, 16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.attribution {
+  font-size: 0.7rem;
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.container {
+  background-color: #1f1f1f;
+  padding: 2rem 2rem 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  border-radius: 50%;
+}
+h1 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+}
+span {
+  font-size: 1rem;
+  color: rgb(157, 255, 0);
+  display: block;
+  align-items: center;
+  margin-left: 5px;
+}
+
+p {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.container img {
+  width: 80px;
+}
+
+.buttons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background-color: transparent;
+  font-size: 1rem;
+  width: 230%;
+  display: inline-block;
+  padding: 8px 0;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #434343;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.buttons a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.button:hover {
+  transition: 1s ease-in-out;
+  background: #125fac;
+}
+
+@media only screen and (max-width: 640px) {
+}
